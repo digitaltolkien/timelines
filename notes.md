@@ -20,29 +20,35 @@ Because the physical files may be used to organize information from difference s
 
 ```yaml
 common:
-    source: LR B.SA
+  source: LR B.SA
 events:
-    -
-        date: SA 1
-        description: Foundation of the Grey Haves, and of Lindon.
-    -
-        date: SA 32
-        description: The Edain reach Númenor.
-    ...
+  -
+    date: SA.1
+    description: Grey Havens founded
+  -
+    date: SA.1
+    description: Lindon founded
+  -
+    date: SA.32
+    description: The Edain reach Númenor
 ```
 
 as opposed to
 
 ```yaml
 events:
-    -
-        date: SA 1
-        description: Foundation of the Grey Haves, and of Lindon.
-        source: LR B.SA
-    -
-        date: SA 32
-        description: The Edain reach Númenor.
-        source: LR B.SA
+  -
+    date: SA.1
+    description: Grey Havens founded
+    source: LR B.SA
+  -
+    date: SA.1
+    description: Lindon founded
+    source: LR B.SA
+  -
+    date: SA.32
+    description: The Edain reach Númenor
+    source: LR B.SA
 ```
 
 although the latter would mean exactly the same thing.
@@ -62,25 +68,52 @@ Each event can then consist of properties:
 
 as well as more to be tentatively proposed below. `description` can just be English text (although we could eventually localize) and `source` can be our citation system.
 
-**TODO**: decide on the `date` format. How should ranges be handled? What about uncertainty?
+#### Dates
+
+`date` can just take a single date string (see arda date library)
+
+```yaml
+date: SA.32
+```
+
+or it can be an object.
+
+Approximate dates are represented as follows:
+
+```yaml
+date:
+  circa: SA.40
+```
+
+and ranges:
+
+```yaml
+date:
+  start: SA.3262
+  end: SA.3310
+```
+
+Eventually we can support terminus post quem and terminus ante quem dates.
+
+#### Categories
 
 I think to get started, we should just add a property `categories` to enable basic tag-like filtering. Initially tags could be people, places, types of events.
 
 For example:
 
 ```yaml
-    -
-        date: SA 442
-        description: Death of Elros Tar-Minyatur.
-        categories:
-            - Elros
-            - deaths
-            - Númenorean rulers
-    -
-        date: SA 500
-        description: Sauron beings to stir again in Middle-earth.
-        categories:
-            - Sauron
+  -
+    date: SA.442
+    description: Death of Elros Tar-Minyatur.
+    categories:
+      - Elros
+      - deaths
+      - Númenorean rulers
+  -
+    date: SA.500
+    description: Sauron beings to stir again in Middle-earth.
+    categories:
+      - Sauron
 ```
 
 Eventually I want to make those categories more richly structured and tied to our authority lists for people and places. But I think we can get started without it.
@@ -88,10 +121,10 @@ Eventually I want to make those categories more richly structured and tied to ou
 But looking ahead, I can imagine having event types with type-specific properties:
 
 ```yaml
-    -
-        date: SA 442
-        type: death
-        person: _ID for Elros_
+  -
+    date: SA.442
+    type: death
+    person: _ID for Elros_
 ```
 
 or similar.
