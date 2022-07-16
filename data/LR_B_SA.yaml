@@ -1,0 +1,232 @@
+common:
+  source: LR B.SA
+events:
+  -
+    date: SA.1
+    description: Grey Havens founded
+  -
+    date: SA.1
+    description: Lindon founded
+  -
+    date: SA.32
+    description: The Edain reach Númenor
+  -
+    date:
+      circa: SA.40
+    description: Many Dwarves leave their old cities in Ered Luin go to Moria
+  -
+    date: SA.442
+    description: Death of Elros Tar-Minyatur
+  -
+    date:
+      circa: SA.500
+    description: Sauron begins to stir again in Middle-earth
+  -
+    date: SA.521
+    description: Birth of Silmariën
+  -
+    date: SA.600
+    description: The first Númenórean ships appear off the coasts of Middle-earth
+  -
+    date: SA.750
+    description: Eregion founded
+  -
+    date:
+      circa: SA.1000
+    description: Sauron chooses Mordor as a land to make into a stronghold
+  -
+    date:
+      circa: SA.1000
+    description: Sauron begins the building of Barad-dûr
+  -
+    date: SA.1075
+    description: Tar-Ancalimë becomes the first Ruling Queen of Númenor
+  -
+    date: SA.1200
+    description: Sauron endeavours to seduce the Eldar
+  -
+    date: SA.1200
+    description: Gil-galad refuses to treat with Sauron; but the smiths of Eregion are won over
+  -
+    date: SA.1200
+    description: The Númenóreans begin to make permanent havens
+  -
+    date:
+      circa: SA.1500
+    description: The Elven-smiths instructed by Sauron reach the height of their skill
+  -
+    date:
+      circa: SA.1500
+    description: The Elven-smiths begin the forging of the Rings of Power
+  -
+    date:
+      circa: SA.1590
+    description: The Three Rings are completed in Eregion
+  -
+    date:
+      circa: SA.1600
+    description: Sauron forges the One Ring in Orodruin
+  -
+    date:
+      circa: SA.1600
+    description: He completes the Barad-dûr
+  -
+    date:
+      circa: SA.1600
+    description: Celebrimbor perceives the designs of Sauron
+  -
+    date: SA.1693
+    description: War of the Elves and Sauron begins
+  -
+    date: SA.1693
+    description: The Three Rings are hidden
+  -
+    date: SA.1695
+    description: Sauron’s forces invade Eriador
+  -
+    date: SA.1695
+    description: Gil-galad sends Elrond to Eregion
+  -
+    date: SA.1697
+    description: Eregion laid waste
+  -
+    date: SA.1697
+    description: Death of Celebrimbor
+  -
+    date: SA.1697
+    description: The gates of Moria are shut
+  -
+    date: SA.1697
+    description: Elrond retreats from Eregion with a remnant of the Noldor
+  -
+    date: SA.1697
+    description: Imladris founded
+  -
+    date: SA.1699
+    description: Sauron overruns Eriador
+  -
+    date: SA.1700
+    description: Tar-Minastir sends a great navy from Númenor to Lindon
+  -
+    date: SA.1700
+    description: Sauron is defeated
+  -
+    date: SA.1701
+    description: Sauron is driven out of Eriador
+  -
+    date: SA.1701
+    description: The Westlands have peace for a long while
+  -
+    date:
+      circa: SA.1800
+    description: The Númenóreans begin to establish dominions on the coast.
+  -
+    date:
+      circa: SA.1800
+    description: Sauron extends his power eastwards.
+  -
+    date:
+      circa: SA.1800
+    description: The shadow falls on Númenor.
+  -
+    date: SA.2251
+    description: Death of Tar-Atanamir.
+  -
+    date: SA.2251
+    description: Tar-Ancalimon takes the sceptre.
+  -
+    date: SA.2251
+    description: Rebellion and division of the Númenóreans begins.
+  -
+    date:
+      circa: SA.2251
+    description: The Nazgûl first appear.
+  -
+    date: SA.2280
+    description: Umbar is made into a great fortress of Númenor
+  -
+    date: SA.2350
+    description: Pelargir is built
+  -
+    date: SA.2899
+    description: Ar-Adûnakhôr takes the sceptre
+  -
+    date: SA.3175
+    description: Repentance of Tar-Palantir
+  -
+    date: SA.3175
+    description: Civil war in Númenor
+  -
+    date: SA.3255
+     description: Ar-Pharazôn the Golden seizes the sceptre
+  -
+    date: SA.3261
+    description: Ar-Pharazôn sets sail and lands at Umbar
+  -
+    date: SA.3262
+    description: Sauron is taken as prison to Númenor
+  -
+    date:
+      start: SA.3262
+      end: SA.3310
+    description: Sauron seduces the King and corrupts the Númenóreans
+  -
+    date: SA.3310
+    description: Ar-Pharazôn begins the building of the Great Armament
+  -
+    date: SA.3319
+    description: Ar-Pharazôn assails Valinor
+  -
+    date: SA.3319
+    description: Downfall of Númenor
+  -
+    date: SA.3319
+    description: Elendil and his sons escape
+  -
+    date: SA.3320
+    description: Foundations of the Realms in Exile: Arnor and Gondor
+  -
+    date: SA.3320
+    description: The Palantíri are divided
+  -
+    date: SA.3320
+    description: Sauron returns to Mordor
+  -
+    date: SA.3429
+    description: Sauron attacks Gondor, takes Minas Ithil and burns the White Tree
+  -
+    date: SA.3429
+    description: Isildur escapes down Anduin and goes to Elendil in the North
+  -
+    date: SA.3429
+    description: Anárion defends Minas Anor and Osgiliath
+  -
+    date: SA.3430
+    description: The Last Alliance of Elves and Men is formed
+  -
+    date: SA.3431
+    description: Gil-galad and Elendil march east to Imladris
+  -
+    date: SA.3434
+    description: The host of the Alliance crosses the Misty Mountains
+  -
+    date: SA.3434
+    description: Battle of Dagorlad and defeat of Sauron
+  -
+    date: SA.3434
+    description: Siege of Barad-dûr begins
+  -
+    date: SA.3440
+    description: Anárion slain
+  -
+    date: SA.3441
+    description: Sauron overthrown by Elendil and Gil-galad, who perish
+  -
+    date: SA.3441
+    description: Isildur takes the One Ring
+  -
+    date: SA.3441
+    description: Sauron passes away and the Ringwraiths go into the shadows
+  -
+    date: SA.3441
+    description: The Second Age ends
