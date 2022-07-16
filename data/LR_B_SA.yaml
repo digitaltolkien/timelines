@@ -158,7 +158,7 @@ events:
     description: Civil war in Númenor
   -
     date: SA.3255
-     description: Ar-Pharazôn the Golden seizes the sceptre
+    description: Ar-Pharazôn the Golden seizes the sceptre
   -
     date: SA.3261
     description: Ar-Pharazôn sets sail and lands at Umbar
@@ -184,7 +184,10 @@ events:
     description: Elendil and his sons escape
   -
     date: SA.3320
-    description: Foundations of the Realms in Exile: Arnor and Gondor
+    description: "Arnor founded"
+  -
+    date: SA.3320
+    description: "Gondor founded"
   -
     date: SA.3320
     description: The Palantíri are divided
