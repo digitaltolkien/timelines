@@ -4,7 +4,7 @@
 
 ### Introduction
 
-These are just work-in-progress notes on how to convey timeline events in a machine-readable way that we can both publish and use to drive the interative timeline viewer (which will eventually allow filtering, display of dates relative to other base dates, and more).
+These are just work-in-progress notes on how to convey timeline events in a machine-readable way that we can both publish and use to drive the interactive timeline viewer (which will eventually allow filtering, display of dates relative to other base dates, and more).
 
 ### Prior Art
 
@@ -12,7 +12,7 @@ As we find other examples of modelling timelines, I'll include them here.
 
 ### Format
 
-I'm going to design stuff using YAML but we can switch to JSON or XML at any point without these efforts being wasted. We could, for example drive the interative timeline viewer with JSON generated from the easier-to-edit YAML. All this is subject to change.
+I'm going to design stuff using YAML but we can switch to JSON or XML at any point without these efforts being wasted. We could, for example drive the interactive timeline viewer with JSON generated from the easier-to-edit YAML. All this is subject to change.
 
 I propose that multiple files always be supported. This way it's easy to include or exclude different sets of events just by selecting different files to import and serve up to the viewer (which isn't the same as filtering). This also allows competing versions to be handled (e.g. different versions of the Annals of Valinor or Beleriand).
 
@@ -94,6 +94,8 @@ date:
 ```
 
 Eventually we can support terminus post quem and terminus ante quem dates.
+
+**UPDATE 2025-04-12**: We might want to consider an Arda-variant of the EDTF specification.
 
 #### Categories
 
